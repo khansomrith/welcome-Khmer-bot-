@@ -64,10 +64,4 @@ cp .env.example .env
 npm start
 ```
 
-## អាជ្ញាប័ណ្ណ
-
-MIT
-npm start
-
-```
 
