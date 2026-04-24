@@ -392,6 +392,11 @@ client.on("guildMemberAdd", async (member) => {
 
         await channel.send({ embeds: [embed] });
       }
+        await channel.send({ 
+          content: member.user.toString(),
+          embeds: [embed] 
+        });
+      }
     } catch (error) {
       console.error("❌ មិនអាចផ្ញើសារស្វាគមន៍បាន:", error);
     }
